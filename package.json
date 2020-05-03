@@ -4,6 +4,7 @@
   "description": "after clicking the submit button. It will send mail to associated mail Id.  ",
   "main": "index.js",
   "scripts": {
+       "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alok",
