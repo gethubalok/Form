@@ -1,0 +1,16 @@
+{
+  "name": "mail_sender",
+  "version": "1.0.0",
+  "description": "after clicking the submit button. It will send mail to associated mail Id.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alok",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6"
+  }
+}

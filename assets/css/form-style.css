@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(rgba(203, 30, 238, 0.945),rgb(194, 191, 219));
+}
+#registration-name{
+    font-family:Verdana;
+    margin-left: 50px;
+    font-size: 1.3rem;
+}
+#registration-form{
+    display: flex;
+    width: 700px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 7%;
+    
+}
+#form-image{
+    /* height: 250px; */
+    width: 325px;
+    background-color: grey;
+    /* border: 1px solid ; */
+}
+#form-image img{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+}
+#main-form{
+    background-color:black;
+    /* text-align: center; */
+    /* border: 1px solid; */
+    width: 345px;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+ul{
+    list-style: none;
+   
+}
+.input-field{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 90%;
+    color: white;
+    margin: 10px;
+    padding: 7px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.input-field:focus{
+    outline: none;
+}
+.input-field::placeholder{
+    font-size: 1.1rem;
+    columns: white;
+    font-family: sans-serif;
+}
+#submit{
+    font-size: 1.11rem;
+    padding: 3px;
+    width: 130px;
+    border: none;
+    height: 37px;
+    border-radius: 50px;
+    color: white;
+    background-color: green;
+}
+#submit:hover{
+    color: white;
+    background-color: rgb(51, 156, 51);
+    cursor: pointer;
+}

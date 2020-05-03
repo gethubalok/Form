@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/email-style.css">
+    <style>
+        #name span{
+          font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p id="name">Dear <span>
+           <b><%=name%>,</b> 
+        </span></p>
+        <p>
+         We have saved your record. Your registered Email is <br>
+         <%=email%>
+        </p>
+        <br>
+        <p> Your Contact Number <%=contact_number%></p>
+        <br>
+        <p>here is your comment <br>
+             <%=comment%>
+        </p>
+       <h3>Thanks for writing us..</h3>
+    </div>
+        
+    
+</body>
+</html>

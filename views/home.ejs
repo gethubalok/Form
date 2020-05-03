@@ -1,0 +1,43 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form-style.css">
+    <title>
+        <%=title%>
+    </title>
+</head>
+<body>
+    <!-- <h1>Please submit this form and check your entered mail...</h1> -->
+    <section id="registration-form">
+        
+        <div id="form-image">
+            <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_1280.jpg">
+        </div>
+        <div id="main-form">
+            <h1 id="registration-name">Registaration Info</h1>
+            <form action="/send" method="POST">
+                <ul>
+                    <li>
+                        <input type="text" name="name" placeholder="Name" required class="input-field"> 
+                    </li><br>
+                    <li>
+                        <input type="number" name="contact_number" placeholder="Phone" required class="input-field">
+                    </li><br>
+                    <li>
+                        <input type="email" name="email" placeholder="Email" required class="input-field">
+                    </li><br>
+                    <li>
+                        <textarea name="comment" cols="30" rows="10" placeholder="Write here for any query...." class="input-field"></textarea>
+                    </li><br>
+                    <li>
+                        <input type="submit" value="Submit" id="submit">
+                    </li>
+                </ul>
+                
+            </form>
+        </div>
+    </section>
+    <script src="../js/form.js"></script>
+</body>
+</html>
