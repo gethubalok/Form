@@ -2,7 +2,7 @@ const express=require('express');
 // const path=require('path');
 // var nodeMailer = require('nodemailer');
 const formMailer=require('./mailers/form_mailers');
-const port=8080;
+const port=process.env.PORT || 3000;
 const app=express();
 app.set('view engine','ejs');
 // app.set('views',path.join(__dirname,'views'));   
